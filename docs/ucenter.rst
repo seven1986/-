@@ -1,24 +1,9 @@
 ﻿用户中心
 =================
-用户、客户端、微服务、租户等管理功能
+微服务、客户端、代码生成、文件、身份服务、角色、用户、租户管理8大功能
 
 微服务
 ----------------------
-
-OAuthServers
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.authservers</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.authservers</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-authservers">Link</a>
-	</p>
-|
 
 错误码表
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -107,108 +92,18 @@ OAuthServers
 	</p>
 |
 
-产品组
+权限代码
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
 	<p>
 	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.products</code>
+	<code>ids4.ms.apiresource.scopes</code>
 	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.products</code>
+	<code>ids4.ms.apiresource.scopes</code>
 	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-products">Link</a>
-	</p>
-|
-
-发布/更新
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.publish</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.publish</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publish">Link</a>
-	</p>
-|
-
-上次发布配置
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.publishconfiguration</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.publishconfiguration</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishconfiguration">Link</a>
-	</p>
-|
-
-创建修订版
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.publishrevision</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.publishrevision</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishrevision">Link</a>
-	</p>
-|
-
-创建新版本
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.publishversion</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.publishversion</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishversion">Link</a>
-	</p>
-|
-
-上线指定版本
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.setonlineversion</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.setonlineversion</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-setonlineversion">Link</a>
-	</p>
-|
-
-版本列表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>
-	<code>ids4.ms.apiresource.versions</code>
-	<label>User Permissions：</label>
-	<code>ids4.ms.apiresource.versions</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-versions">Link</a>
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/ApiResource-Scopes">Link</a>
 	</p>
 |
 
@@ -266,6 +161,129 @@ OAuthServers
 	<code>ids4.ms.apiresource.verifyemail</code>
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-verifyemail">Link</a>
+	</p>
+|
+
+网关
+~~~~~~~~~~~~~~~~~~~~~~
+
+OAuthServers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.authservers</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.authservers</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-authservers">Link</a>
+	</p>
+|
+
+产品组
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.products</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.products</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-products">Link</a>
+	</p>
+|
+
+发布或更新版本
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.publish</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.publish</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publish">Link</a>
+	</p>
+|
+
+上次发布配置
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.publishconfiguration</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.publishconfiguration</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishconfiguration">Link</a>
+	</p>
+|
+
+创建修订版
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.publishrevision</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.publishrevision</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishrevision">Link</a>
+	</p>
+|
+
+创建新版本
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.publishversion</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.publishversion</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-publishversion">Link</a>
+	</p>
+|
+
+上线指定版本
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.setonlineversion</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.setonlineversion</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-setonlineversion">Link</a>
+	</p>
+|
+
+版本列表
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.versions</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.versions</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-versions">Link</a>
 	</p>
 |
 
@@ -489,7 +507,7 @@ OAuthServers
 代码生成
 ~~~~~~~~~~~~~~~~~~~~~~
 
-客户端
+客户端列表
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. raw:: html
@@ -545,7 +563,7 @@ NPM设置
 	</p>
 |
 
-服务端
+服务端列表
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -993,6 +1011,9 @@ NPM设置
 注册
 ~~~~~~~~~~~~~~~~~~~~~~
 
+提交
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. raw:: html
 
 	<p>
@@ -1005,9 +1026,6 @@ NPM设置
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/user-register">Link</a>
 	</p>
 |
-
-注册
-~~~~~~~~~~~~~~~~~~~~~~
 
 发送邮件验证码
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
