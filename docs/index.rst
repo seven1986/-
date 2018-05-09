@@ -7,7 +7,7 @@ Welcome to Game5.0
 ==================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    introduction
    log
@@ -19,14 +19,14 @@ Welcome to Game5.0
    resources
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: 开放能力
 
    game
    ucenter
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 其他
 
    permissions
