@@ -100,6 +100,22 @@
 
 |
 
+权限代码
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.apiresource.scopes</code>
+	<label>User Permissions：</label>
+	<code>ids4.ms.apiresource.scopes</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/apiresource-scopes">Link</a>
+	</p>
+
+|
+
 订阅者
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -536,6 +552,35 @@ OAuthServers
 	支持生成的客户端集合
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/codegen-clients">Link</a>
+	</p>
+
+|
+
+Github设置
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.codegen.githuboptions</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/codegen-githuboptions">Link</a>
+	</p>
+
+|
+
+更新Github设置
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>
+	<code>ids4.ms.codegen.putgithuboptions</code>
+	            更新微服务的Github发布设置
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/1/operations/codegen-putgithuboptions">Link</a>
 	</p>
 
 |
