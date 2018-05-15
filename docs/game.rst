@@ -1,8 +1,197 @@
-﻿游戏
+游戏
 =================
 .. Note::
 
 	应援、排行榜、分享、支付等功能
+
+应援
+----------------------
+
+更新状态
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 更新状态
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-changestatus">Link</a>
+	</p>
+
+|
+
+详情
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 详情
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-detail">Link</a>
+	</p>
+
+|
+
+总列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 总列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-list">Link</a>
+	</p>
+
+|
+
+我发起列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 我发起列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizelist">Link</a>
+	</p>
+
+|
+
+发起者详情
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 发起者详情
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizer">Link</a>
+	</p>
+
+|
+
+我参与列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 我参与列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-participatelist">Link</a>
+	</p>
+
+|
+
+新增
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 新增
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-post">Link</a>
+	</p>
+
+|
+
+修改
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 修改
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-put">Link</a>
+	</p>
+
+|
+
+发起收款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 发起收款
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-withdraw">Link</a>
+	</p>
+
+|
+
+捐款
+~~~~~~~~~~~~~~~~~~~~~~
+
+新增
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 新增
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledge">Link</a>
+	</p>
+
+|
+
+排行榜
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 排行榜
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledgerankinglist">Link</a>
+	</p>
+
+|
+
+列表
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledges">Link</a>
+	</p>
+
+|
+
+状态
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 状态
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledgestatus">Link</a>
+	</p>
+
+|
+
+更新状态
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 更新状态
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-setpledgestatus">Link</a>
+	</p>
+
+|
+
 
 游戏
 ----------------------
