@@ -23,8 +23,6 @@ Welcome to Game5.0
    :caption: 开放能力
 
    351F379084135F93DF216551BD520F60
-   game
-   ucenter
 
 .. toctree::
    :maxdepth: 1
