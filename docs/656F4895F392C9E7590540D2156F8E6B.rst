@@ -1,34 +1,21 @@
-CampaignAPIs
+游戏
 =================
 .. Note::
 
-	undefined
+	应援、排行榜、分享、支付等功能
 
 应援
 ----------------------
 
-更新状态
+新增
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
 	<p>
-	应援 - 更新状态
+	应援 - 新增
 	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-changestatus">Link</a>
-	</p>
-
-|
-
-详情
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	应援 - 详情
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-detail">Link</a>
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-post">Link</a>
 	</p>
 
 |
@@ -46,54 +33,15 @@ CampaignAPIs
 
 |
 
-我发起列表
+详情
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
 	<p>
-	应援 - 我发起列表
+	应援 - 详情
 	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizelist">Link</a>
-	</p>
-
-|
-
-发起者详情
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	应援 - 发起者详情
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizer">Link</a>
-	</p>
-
-|
-
-我参与列表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	应援 - 我参与列表
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-participatelist">Link</a>
-	</p>
-
-|
-
-新增
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	应援 - 新增
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-post">Link</a>
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-detail">Link</a>
 	</p>
 
 |
@@ -111,6 +59,45 @@ CampaignAPIs
 
 |
 
+更新状态
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 更新状态
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-changestatus">Link</a>
+	</p>
+
+|
+
+我发起列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 我发起列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizelist">Link</a>
+	</p>
+
+|
+
+我参与列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 我参与列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-participatelist">Link</a>
+	</p>
+
+|
+
 发起收款
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -120,6 +107,19 @@ CampaignAPIs
 	应援 - 发起收款
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-withdraw">Link</a>
+	</p>
+
+|
+
+发起者详情
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	应援 - 发起者详情
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-organizer">Link</a>
 	</p>
 
 |
@@ -140,19 +140,6 @@ CampaignAPIs
 
 |
 
-排行榜
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. raw:: html
-
-	<p>
-	应援 - 捐款 - 排行榜
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledgerankinglist">Link</a>
-	</p>
-
-|
-
 列表
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -162,6 +149,19 @@ CampaignAPIs
 	应援 - 捐款 - 列表
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledges">Link</a>
+	</p>
+
+|
+
+排行榜
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+	<p>
+	应援 - 捐款 - 排行榜
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/crowdfund-pledgerankinglist">Link</a>
 	</p>
 
 |
@@ -196,45 +196,6 @@ CampaignAPIs
 游戏
 ----------------------
 
-错误码表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	游戏 - 错误码表
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-codes">Link</a>
-	</p>
-
-|
-
-删除
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	游戏 - 删除
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-delete">Link</a>
-	</p>
-
-|
-
-详情
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	游戏 - 详情
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-detail">Link</a>
-	</p>
-
-|
-
 列表
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -244,6 +205,19 @@ CampaignAPIs
 	游戏 - 列表
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-get">Link</a>
+	</p>
+
+|
+
+更新
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	游戏 - 更新
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-put">Link</a>
 	</p>
 
 |
@@ -261,15 +235,41 @@ CampaignAPIs
 
 |
 
-更新
+详情
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
 	<p>
-	游戏 - 更新
+	游戏 - 详情
 	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-put">Link</a>
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-detail">Link</a>
+	</p>
+
+|
+
+删除
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	游戏 - 删除
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-delete">Link</a>
+	</p>
+
+|
+
+错误码表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	游戏 - 错误码表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/2/operations/game-codes">Link</a>
 	</p>
 
 |
