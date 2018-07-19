@@ -1,12 +1,14 @@
-﻿调试接口
+﻿﻿﻿调试接口
 ========
+
+    接口调用地址：https://openapis.ixingban.com
 
 .. Note::
 
     调试前需准备:
 
-    - subscriptionKey           如何获取
-    - access_token      如何获取
+    - subscriptionKey，订阅产品后，会自动生成。
+    - access_token      :doc:`access_token`
 
 
 网页调试
@@ -35,4 +37,3 @@
    * 401 未授权，因为没有传入subscriptionKey或access_token
    * 404 不存在的服务，请求地址错误
    * 500 接口内部错误
-
