@@ -18,29 +18,42 @@ Javascript
 .. code-block:: javascript
     :linenos:
 
-     $(function () {
-            // Declare a proxy to reference the hub.
-            var chat = $.connection.chatHub;
-            // Create a function that the hub can call to broadcast messages.
-            chat.client.broadcastMessage = function (name, message) {
-                // Html encode display name and message.
-                var encodedName = $('<div />').text(name).html();
-                var encodedMsg = $('<div />').text(message).html();
-                // Add the message to the page.
-                $('#discussion').append('<li><strong>' + encodedName
-                    + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
-            };
-            // Get the user name and store it to prepend to messages.
-            $('#displayname').val(prompt('Enter your name:', ''));
-            // Set initial focus to message input box.
-            $('#message').focus();
-            // Start the connection.
-            $.connection.hub.start().done(function () {
-                $('#sendmessage').click(function () {
-                    // Call the Send method on the hub.
-                    chat.server.send($('#displayname').val(), $('#message').val());
-                    // Clear text box and reset focus for next comment.
-                    $('#message').val('').focus();
-                });
-            });
-        });
+     const connection = new signalR.HubConnectionBuilder()
+    .withUrl("/chatHub")
+    .build();
+
+    // 接受信息，统一的名字"ReceiveMessage"
+    connection.on("ReceiveMessage", (userName, message) => {
+        const msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const encodedMsg = userName + " says " + msg;
+        const li = document.createElement("li");
+        li.textContent = encodedMsg;
+        document.getElementById("messagesList").appendChild(li);
+    });
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    // 发信息到群组,统一的名字"SendMessageToGroup"
+    document.getElementById("sendButton").addEventListener("click", event => {
+        const groupName = document.getElementById("groupName").value;
+        const userName = document.getElementById("userInput").value;
+        const message = document.getElementById("messageInput").value;
+        connection.invoke("SendMessageToGroup", groupName, userName, message).catch(err => console.error(err.toString()));
+        event.preventDefault();
+    });
+    
+    // 加入群组,统一的名字"AddToGroup"
+    document.getElementById("joinButton").addEventListener("click", event => {
+        const groupName = document.getElementById("groupName").value;
+        const userName = document.getElementById("userInput").value;
+        connection.invoke("AddToGroup", groupName, userName).catch(err => console.error(err.toString()));
+        event.preventDefault();
+    });
+    
+    // 离开群组,统一的名字"RemoveFromGroup"
+    document.getElementById("leaveButton").addEventListener("click", event => {
+        const groupName = document.getElementById("groupName").value;
+        const userName = document.getElementById("userInput").value;
+        connection.invoke("RemoveFromGroup", groupName, userName).catch(err => console.error(err.toString()));
+        event.preventDefault();
+    });
