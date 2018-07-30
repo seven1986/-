@@ -16,7 +16,6 @@ Javascript
 ----------
 
 .. code-block:: javascript
-    :linenos:
 
      const connection = new signalR.HubConnectionBuilder()
     .withUrl("/chatHub")
@@ -57,3 +56,5 @@ Javascript
         connection.invoke("RemoveFromGroup", groupName, userName).catch(err => console.error(err.toString()));
         event.preventDefault();
     });
+
+    :linenos:
