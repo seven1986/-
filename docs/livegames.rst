@@ -3,13 +3,13 @@
 
 .. Note::
 
-    接口调用前需要引入:
+    调用前需要先安装signalr包，然后引用signalr.min.js文件:
 
-    - http://signalrchat20180727022234.chinacloudsites.cn/Scripts/jquery-1.6.4.min.js
+    - npm install @aspnet/signalr
 
-    - http://signalrchat20180727022234.chinacloudsites.cn/Scripts/jquery.signalR-2.0.0.js
-    
-    - http://signalrchat20180727022234.chinacloudsites.cn/signalr/hubs
+    - 猜拳hub地址：https://campaigncore-gameresourcev5.chinacloudsites.cn/cqhub
+
+    - 你画我猜hub地址：https://campaigncore-gameresourcev5.chinacloudsites.cn/drawinghub
 
 
 Javascript
@@ -18,7 +18,7 @@ Javascript
 .. code-block:: javascript
 
      const connection = new signalR.HubConnectionBuilder()
-    .withUrl("/chatHub")
+    .withUrl('{hub地址}') //这里配置hub地址
     .build();
     // 猜拳 - /cQHub
     //你画我猜 - /drawingHub
