@@ -57,4 +57,3 @@ Javascript
         event.preventDefault();
     });
 
-    :linenos:
