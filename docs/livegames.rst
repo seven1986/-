@@ -4,8 +4,11 @@
 .. Note::
 
     接口调用前需要引入:
+
     - http://signalrchat20180727022234.chinacloudsites.cn/Scripts/jquery-1.6.4.min.js
+
     - http://signalrchat20180727022234.chinacloudsites.cn/Scripts/jquery.signalR-2.0.0.js
+    
     - http://signalrchat20180727022234.chinacloudsites.cn/signalr/hubs
 
 
@@ -40,4 +43,4 @@ Javascript
                     $('#message').val('').focus();
                 });
             });
-        });
+        });
