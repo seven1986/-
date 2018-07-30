@@ -20,7 +20,9 @@ Javascript
      const connection = new signalR.HubConnectionBuilder()
     .withUrl("/chatHub")
     .build();
-
+    // 猜拳 - /cQHub
+    //你画我猜 - /drawingHub
+    
     // 接受信息，统一的名字"ReceiveMessage"
     connection.on("ReceiveMessage", (userName, message) => {
         const msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
