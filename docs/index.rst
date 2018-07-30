@@ -24,6 +24,7 @@ Welcome to Game5.0
 
    656F4895F392C9E7590540D2156F8E6B
    351F379084135F93DF216551BD520F60
+   livegames
 
 .. toctree::
    :maxdepth: 1
