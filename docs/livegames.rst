@@ -43,11 +43,12 @@ Javascript
         event.preventDefault();
     });
     
-    // 加入群组,统一的名字"AddToGroup"
+    // 加入群组,统一的名字"AddToGroup (string groupName, string userName, bool creator)"
+    // creator - 是否是建群人
     document.getElementById("joinButton").addEventListener("click", event => {
         const groupName = document.getElementById("groupName").value;
         const userName = document.getElementById("userInput").value;
-        connection.invoke("AddToGroup", groupName, userName).catch(err => console.error(err.toString()));
+        connection.invoke("AddToGroup", groupName, userName, 1).catch(err => console.error(err.toString()));
         event.preventDefault();
     });
     
