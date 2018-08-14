@@ -32,7 +32,7 @@ Javascript
         document.getElementById("messagesList").appendChild(li);
     });
 
-    connection.start().catch(err => console.error(err.toString()))then(function(){
+    connection.start().then(function(){
 
         // 发信息到群组,统一的名字"SendMessageToGroup"
         document.getElementById("sendButton").addEventListener("click", event => {
@@ -59,5 +59,5 @@ Javascript
             connection.invoke("RemoveFromGroup", groupName, userName).catch(err => console.error(err.toString()));
             event.preventDefault();
         });
-    });
+    }).catch(err => console.error(err.toString()));
 
