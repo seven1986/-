@@ -32,31 +32,32 @@ Javascript
         document.getElementById("messagesList").appendChild(li);
     });
 
-    connection.start().catch(err => console.error(err.toString()));
+    connection.start().catch(err => console.error(err.toString()))then(function(){
 
-    // 发信息到群组,统一的名字"SendMessageToGroup"
-    document.getElementById("sendButton").addEventListener("click", event => {
-        const groupName = document.getElementById("groupName").value;
-        const userName = document.getElementById("userInput").value;
-        const message = document.getElementById("messageInput").value;
-        connection.invoke("SendMessageToGroup", groupName, userName, message).catch(err => console.error(err.toString()));
-        event.preventDefault();
-    });
-    
-    // 加入群组,统一的名字"AddToGroup (string groupName, string userName, bool creator)"
-    // creator - 是否是建群人
-    document.getElementById("joinButton").addEventListener("click", event => {
-        const groupName = document.getElementById("groupName").value;
-        const userName = document.getElementById("userInput").value;
-        connection.invoke("AddToGroup", groupName, userName, 1).catch(err => console.error(err.toString()));
-        event.preventDefault();
-    });
-    
-    // 离开群组,统一的名字"RemoveFromGroup"
-    document.getElementById("leaveButton").addEventListener("click", event => {
-        const groupName = document.getElementById("groupName").value;
-        const userName = document.getElementById("userInput").value;
-        connection.invoke("RemoveFromGroup", groupName, userName).catch(err => console.error(err.toString()));
-        event.preventDefault();
+        // 发信息到群组,统一的名字"SendMessageToGroup"
+        document.getElementById("sendButton").addEventListener("click", event => {
+            const groupName = document.getElementById("groupName").value;
+            const userName = document.getElementById("userInput").value;
+            const message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessageToGroup", groupName, userName, message).catch(err => console.error(err.toString()));
+            event.preventDefault();
+        });
+
+        // 加入群组,统一的名字"AddToGroup (string groupName, string userName, bool creator)"
+        // creator - 是否是建群人
+        document.getElementById("joinButton").addEventListener("click", event => {
+            const groupName = document.getElementById("groupName").value;
+            const userName = document.getElementById("userInput").value;
+            connection.invoke("AddToGroup", groupName, userName, 1).catch(err => console.error(err.toString()));
+            event.preventDefault();
+        });
+
+        // 离开群组,统一的名字"RemoveFromGroup"
+        document.getElementById("leaveButton").addEventListener("click", event => {
+            const groupName = document.getElementById("groupName").value;
+            const userName = document.getElementById("userInput").value;
+            connection.invoke("RemoveFromGroup", groupName, userName).catch(err => console.error(err.toString()));
+            event.preventDefault();
+        });
     });
 
