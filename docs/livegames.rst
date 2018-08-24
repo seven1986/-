@@ -39,7 +39,7 @@ Javascript
             const groupName = document.getElementById("groupName").value;
             const userName = document.getElementById("userInput").value;
             const message = document.getElementById("messageInput").value;
-            connection.invoke("SendMessageToGroup", groupName, userName, message).catch(err => console.error(err.toString()));
+            connection.invoke("SendMessageToGroup", groupName, messageData, messageType).catch(err => console.error(err.toString()));
             event.preventDefault();
         });
 
