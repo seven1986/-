@@ -1,0 +1,256 @@
+支付网关
+=================
+.. Note::
+
+	订单创建、查询、退款和接收网关返回的支付通知等操作。支持的支付网关有：支付宝(Alipay)、微信支付(Wechatpay)、银联支付(Unionpay)、QQ钱包支付(Qpay)
+
+微支付
+----------------------
+
+公众号支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_1
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-publicpay">Link</a>
+	</p>
+
+|
+
+APP支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-apppay">Link</a>
+	</p>
+
+|
+
+小程序支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_3
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-appletpay">Link</a>
+	</p>
+
+|
+
+H5支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/H5.php?chapter=15_1
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-wappay">Link</a>
+	</p>
+
+|
+
+扫码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=6_1
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-scanpay">Link</a>
+	</p>
+
+|
+
+条码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/micropay.php?chapter=5_1
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-barcodepay">Link</a>
+	</p>
+
+|
+
+查询订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 查询订单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-query">Link</a>
+	</p>
+
+|
+
+申请退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 申请退款
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-refund">Link</a>
+	</p>
+
+|
+
+查询退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 查询退款
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-refundquery">Link</a>
+	</p>
+
+|
+
+关闭订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 关闭订单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-close">Link</a>
+	</p>
+
+|
+
+撤销订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 撤销订单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-cancel">Link</a>
+	</p>
+
+|
+
+企业付款到零钱
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 企业付款到零钱
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-transfer">Link</a>
+	</p>
+
+|
+
+查询企业付款零钱
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 查询企业付款零钱
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-transferquery">Link</a>
+	</p>
+
+|
+
+获取RSA公钥
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 获取RSA公钥
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-publickey">Link</a>
+	</p>
+
+|
+
+企业付款到银行卡
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 企业付款到银行卡
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-transfertobank">Link</a>
+	</p>
+
+|
+
+查询企业付款银行卡
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 查询企业付款银行卡
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-transfertobankquery">Link</a>
+	</p>
+
+|
+
+下载对账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 下载对账单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-billdownload">Link</a>
+	</p>
+
+|
+
+下载资金账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 下载资金账单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-fundflowdownload">Link</a>
+	</p>
+
+|
+
+获取OpenId
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 获取OpenId
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/wechatpay-oauth">Link</a>
+	</p>
+
+|
+
