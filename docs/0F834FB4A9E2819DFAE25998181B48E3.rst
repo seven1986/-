@@ -254,3 +254,176 @@ H5支付
 
 |
 
+
+支付宝
+----------------------
+
+电脑网站支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 电脑网站支付
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-webpay">Link</a>
+	</p>
+
+|
+
+手机网站支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 手机网站支付
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-wappay">Link</a>
+	</p>
+
+|
+
+APP支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - APP支付
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-apppay">Link</a>
+	</p>
+
+|
+
+扫码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 扫码支付
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-scanpay">Link</a>
+	</p>
+
+|
+
+条码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 条码支付
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-barcodepay">Link</a>
+	</p>
+
+|
+
+交易查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 交易查询
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-query">Link</a>
+	</p>
+
+|
+
+交易退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 交易退款
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-refund">Link</a>
+	</p>
+
+|
+
+退款查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 退款查询
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-refundquery">Link</a>
+	</p>
+
+|
+
+交易撤销
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 交易撤销
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-cancel">Link</a>
+	</p>
+
+|
+
+交易关闭
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 交易关闭
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-close">Link</a>
+	</p>
+
+|
+
+单笔转账
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 单笔转账
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-transfer">Link</a>
+	</p>
+
+|
+
+转账查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 转账查询
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-transferquery">Link</a>
+	</p>
+
+|
+
+下载对账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付宝 - 下载对账单
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.ixingban.com/docs/services/6/operations/alipay-billdownload">Link</a>
+	</p>
+
+|
+
