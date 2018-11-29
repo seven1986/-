@@ -10,19 +10,17 @@
 创建H5游戏
 -----------
 
-    创建1个基于phaserJs的H5游戏种子项目（默认包含所有SDK，详见README.md）
+    
 
 .. code-block:: cmd
     :linenos:
 
+    创建1个基于phaserJs的H5游戏种子项目（默认包含所有SDK，详见README.md）
+    
     jixiu newgame.v2 helloworld
     
     
-    
     创建1个基于html的H5游戏种子项目（默认包含所有SDK，详见README.md）
-
-.. code-block:: cmd
-    :linenos:
 
     jixiu newgame helloworld
     
